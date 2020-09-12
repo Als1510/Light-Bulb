@@ -1,0 +1,35 @@
+header{
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+.container{
+    border:0.5px solid grey;
+    border-radius: 10px;
+    box-shadow:0.5px 0.7px 1px 1.5px skyblue; 
+    display: block;
+    margin:auto;
+    height:230px;
+    width:50%;
+    padding:20px;
+}
+img{
+    display:block;
+    margin:auto;
+}
+.button{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, 600%);
+}
+button{
+    width:44px;
+    border:none;
+    border-color:white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px skyblue;
+}
+button:click

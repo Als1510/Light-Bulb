@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bulb</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script>
+        function light(value) {
+            var pic;
+            if (value == 1) {
+                pic = "BulbOn.jpg";
+            } else {
+                pic = "BulbOff.jpg";
+            }
+            document.getElementById('Bulb').src = pic;
+        }
+    </script>
+    <header>
+        <h1>Light Bulb</h1>
+    </header>
+    <div class="container">
+        <img id="Bulb" src="BulbOff.jpg">
+        <div class="button">
+            <button class="Button" type="button" onclick="light(1)">On</button>
+            <button class="Button" type="button" onclick="light(0)">Off</button>
+        </div>
+    </div>
+</body>
+
+</html>
